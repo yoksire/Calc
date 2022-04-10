@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCalc</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/{kit_code}.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="body-c-mode-dark">
+    <div class="calculator calculator-bg-mode-dark">
+        <div class="upper-container">
+          <div class="mode-switch mode-switch-bg-mode-dark">
+            <i class="fa-regular fa-sun mode-inactive-dark"></i>
+            <i class="fa-regular fa-moon mode-active-dark"></i>
+          </div>
+          <div class="input-val"><h3><span class="first-number">0</span> <span class="operator"></span> <span class="second-number"></span></h3></div>
+          <div class="output-container"><h1></h1></div>
+        </div>
+
+        <div class="lower-container lower-container-bg-mode-dark">
+          <div class="inner-lower-container">
+            <!-- First row -->
+            <div class="row">
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark btn-green">
+                <p>AC</p>
+              </div>
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark btn-green">
+                <p>CLC</p> <!-- Subject to change later-->
+              </div>
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark btn-green">
+                <p>%</p>
+              </div>
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark btn-orange">
+                <p>÷</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <!-- Second row -->
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark">
+                <p>7</p>
+              </div>
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark">
+                <p>8</p>
+              </div>
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark">
+                <p>9</p>
+              </div>
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark btn-orange">
+                <p>×</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <!-- Third row -->
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark">
+                <p>4</p>
+              </div>
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark">
+                <p>5</p>
+              </div>
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark">
+                <p>6</p>
+              </div>
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark btn-orange">
+                <p>-</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <!-- Fourth row -->
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark">
+                <p>1</p>
+              </div>
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark">
+                <p>2</p>
+              </div>
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark">
+                <p>3</p>
+              </div>
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark btn-orange">
+                <p>+</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <!-- Fifth row -->
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark">
+                <p>↻</p>
+              </div>
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark">
+                <p>0</p>
+              </div>
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark">
+                <p>.</p>
+              </div>
+              <div class="btn btn-bg-mode-dark btn-c-mode-dark btn-orange">
+                <p>=</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Horizontal rule -->
+          <hr>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
